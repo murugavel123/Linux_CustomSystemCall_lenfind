@@ -1293,5 +1293,5 @@ static inline unsigned int ksys_personality(unsigned int personality)
 
 	return old;
 }
-
+asmlinkage long lenfind(const char __user *user_str);
 #endif
